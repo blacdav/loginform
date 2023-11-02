@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form varification</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Create Forms</h1>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label for="username">Username:</label><br>
+                <input type="text" placeholder="Username" id="username">
+                <small>Error Message</small><br>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email:</label><br>
+                <input type="email" placeholder="example@example.com" id="email">
+                <small>Error Message</small><br>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Create Password:</label><br>
+                <input type="password" placeholder="******" max="6" id="password">
+                <small>Error Message</small><br>
+            </div>
+
+            <div class="form-control">
+                <label for="password2">Confirm Password</label><br>
+                <input type="password" placeholder="******" max="6" id="password2">
+                <small>Error Message</small><br>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <script lang="javascript" type="text/javascript" src="./JS/func.js">
+    </script>
+</body>
+</html>
